@@ -1,0 +1,521 @@
+[s[999C[999B[6n[u[H[J[?25l[H[J[s[999C[999B[6n[uTasks: 865 total,   1 running, 864 sleeping,   0 stopped,   0 zombie
+  Mem:    11553M total,    11236M used,      316M free,        4M buffers
+ Swap:     6143M total,     1631M used,     4512M free,     5676M cached
+800%cpu 110%user   0%nice  48%sys 638%idle   3%iow   0%irq   3%sirq   0%host
+[7m  PID USER         PR  NI VIRT  RES [SHR]S %CPU  %MEM     TIME+ ARGS            [0m
+13150 u0_a246      20   0  12G 655M 440M S  0.0   5.6   4:28.25 com.tencent.mob+
+16012 u0_a245      20   0  11G 619M 402M S  0.0   5.3   6:42.22 com.tencent.mm
+ 1413 system       18  -2  12G 499M 313M S 35.0   4.3 1147:15.0 system_server
+12692 u0_a246      20   0 7.7G 366M 255M S  0.0   3.1   0:03.83 com.tencent.mob+
+17876 u0_a245      20   0 8.6G 292M 215M S  0.0   2.5   1:00.52 com.tencent.mm:+
+27555 u0_a141      20   0  13G 262M 203M S  0.0   2.2   0:07.46 com.miui.voicea+
+ 2173 system       20   0 8.5G 363M 196M S  2.5   3.1 186:40.73 com.android.sys+
+30509 u0_a219      20   0 6.8G 229M 184M S  0.0   1.9   0:03.54 com.google.andr+
+30422 u0_a219      20   0 6.7G 214M 170M S  0.0   1.8   0:03.30 com.google.andr+
+ 2188 u0_a103      10 -10 8.8G 274M 148M S  0.0   2.3  56:34.90 com.miui.home
+14564 u0_a246      20   0 7.3G 217M 134M S  0.0   1.8   5:34.62 com.tencent.mob+
+ 4040 u0_a242      10 -10 7.7G 238M 133M S  0.0   2.0  36:10.98 com.iflytek.inp+
+ 3848 system       20   0 6.7G 225M 133M S  0.0   1.9   6:34.92 com.miui.face
+12933 u0_a219      20   0 6.3G 150M 120M S  0.0   1.3   0:00.72 com.google.andr+
+ 2143 radio        20   0 8.3G 174M 113M S  0.0   1.5  62:44.90 com.android.pho+
+ 2434 system       20   0 7.6G 158M  99M S  0.0   1.3   1:30.67 com.android.set+
+ 9728 u0_a100      20   0 6.9G 135M  98M S  0.0   1.1   0:01.16 com.android.cam+
+ 4127 u0_a76       10 -10 7.3G 151M  98M S  0.0   1.3   1:08.67 com.miui.person+
+ 3551 system       20   0 7.7G 154M  97M S  0.0   1.3  22:16.62 com.miui.securi+
+12345 u0_a137      20   0 6.6G 148M  95M S  0.0   1.2   0:03.14 com.sohu.inputm+
+ 5871 system       20   0 7.1G 128M  91M S  0.0   1.1   1:08.72 com.miui.securi+
+15805 bluetooth    20   0 6.9G 123M  89M S 15.0   1.0   0:12.07 com.android.blu+
+12714 u0_a61       20   0 6.6G 121M  86M S  0.0   1.0   0:08.14 android.process+
+ 1993 u0_a156      20   0 6.5G 124M  84M S  0.0   1.0   6:00.09 com.miui.miwall+
+14243 u0_a223      20   0 6.0G 117M  82M S  0.0   1.0   0:02.73 com.google.andr+
+ 2605 system       20   0  10G 116M  80M S  0.0   1.0  32:59.64 com.miui.aod
+12396 u0_a137      20   0 6.5G 112M  79M S  0.0   0.9   0:02.34 com.sohu.inputm+
+14456 u0_a118      20   0 6.7G 115M  79M S  0.0   0.9   0:05.44 com.miui.system+
+14098 u0_a144      20   0 6.3G 116M  79M S  0.0   0.9   0:01.93 com.miui.clouds+
+11600 u0_a119      20   0 6.3G 114M  78M S  0.0   0.9   0:12.15 com.miui.analyt+
+ 9836 u0_a74       20   0 6.0G 107M  75M S  0.0   0.9   0:00.62 android.process+
+ 9692 system       20   0 6.0G 104M  74M S  0.0   0.9   0:00.74 com.xiaomi.mise+
+11661 system       20   0 6.0G  98M  73M S  0.0   0.8   0:02.14 com.miui.screen+
+12074 system       20   0 6.1G 101M  71M S  0.0   0.8   0:01.58 com.xiaomi.mise+
+15495 u0_a147      20   0 6.3G 101M  70M S  0.0   0.8   3:51.82 com.xiaomi.xmsf
+  909 system       -3  -8 3.2G  87M  68M S  2.5   0.7 511:37.95 surfaceflinger
+30440 u0_a219      20   0 5.9G  96M  68M S  0.0   0.8   0:00.61 com.google.proc+
+27665 system       20   0 6.1G  92M  67M S  0.0   0.7   0:00.53 com.xiaomi.aias+
+ 7953 u0_a202      20   0 6.9G 111M  66M S  0.0   0.9  19:33.74 com.mi.health
+ 4780 system       20   0 7.4G  97M  65M S  0.0   0.8   7:12.60 com.xiaomi.mi_c+
+ 5284 system       20   0 6.9G 105M  65M S  0.0   0.9  14:00.04 com.miui.powerk+
+14404 u0_a162      20   0 5.9G  88M  64M S  0.0   0.7   0:01.47 com.miui.phrase
+ 9772 u0_a152      20   0 5.8G  93M  64M S  0.0   0.8   0:00.55 com.android.htm+
+ 3581 u0_a198      20   0 6.4G 100M  63M S  0.0   0.8  19:05.87 com.android.pro+
+ 3646 system       20   0 6.5G  97M  63M S  0.0   0.8   2:37.64 com.miui.daemon
+ 5768 system       20   0 6.1G  91M  62M S  0.0   0.7   2:21.52 com.xiaomi.joyo+
+23216 u0_a145      20   0 6.6G  91M  62M S  0.0   0.7   0:00.61 com.miui.securi+
+ 4161 u0_a139      20   0 6.5G  86M  61M S  0.0   0.7   4:37.86 com.xiaomi.meto+
+ 8693 system       20   0 6.2G  88M  60M S  0.0   0.7   0:13.82 com.xiaomi.mise+
+ 4820 u0_a64       20   0 6.3G  81M  59M S 65.0   0.6   8:42.85 com.lbe.securit+
+ 7803 u0_a193      20   0 6.1G  83M  59M S  0.0   0.7   0:00.44 com.android.per+
+ 4223 system       20   0 6.1G  80M  59M S  0.0   0.6   1:58.09 com.xiaomi.loca+
+ 9641 u0_a84       20   0 6.0G  84M  58M S  0.0   0.7   4:21.76 com.miui.mishar+
+11260 bluetooth    20   0 6.6G  84M  57M S  2.5   0.7   1:53.78 com.xiaomi.blue+
+31058 radio        20   0 6.1G  81M  57M S  0.0   0.6   0:00.44 com.miui.vsimco+
+ 7582 system       20   0 6.4G  83M  56M S  0.0   0.7   0:13.91 com.android.set+
+27768 u0_a135      20   0 5.8G  84M  55M S  0.0   0.7   0:00.42 com.xiaomi.bsp.+
+25404 u0_a186      20   0 1.3G  76M  55M S  0.0   0.6   0:00.42 com.google.andr+
+ 3733 system       20   0 6.0G  75M  55M S  0.0   0.6   0:24.81 .slas
+ 3672 u0_a59       20   0 6.1G  74M  54M S  0.0   0.6   2:22.18 system
+ 6197 system       20   0 6.0G  81M  54M S  0.0   0.7   0:34.75 com.miui.notifi+
+13916 u0_a113      20   0 5.9G  67M  52M S  0.0   0.5   0:00.10 com.android.pri+
+  800 root         20   0 6.1G  55M  51M S  0.0   0.4   2:07.96 zygote64
+ 2139 finddevice   20   0 6.6G  71M  51M S  0.0   0.6   2:31.72 com.xiaomi.find+
+ 4031 u0_a157      20   0 6.4G  79M  51M S  0.0   0.6   1:05.22 com.milink.serv+
+17323 system       20   0 6.3G  76M  51M S  0.0   0.6   0:04.02 com.xiaomi.miga+
+ 3741 u0_a98       20   0 5.9G  67M  50M S  0.0   0.5   0:05.57 com.xiaomi.mircs
+14600 system       20   0 5.9G  55M  49M S  0.0   0.4   0:00.34 com.modemdebug
+ 2707 radio        20   0 6.3G  67M  49M S  0.0   0.5   0:51.22 com.mediatek.ims
+14563 system       20   0 5.8G  68M  49M S  0.0   0.5   0:00.28 com.android.key+
+ 3648 nfc          20   0 6.2G  99M  48M S  0.0   0.8   0:43.09 com.android.nfc
+ 3736 u0_a62       20   0 6.0G  85M  47M S  0.0   0.7   4:57.53 com.miui.voicet+
+ 2565 system       20   0 6.1G  86M  47M S  0.0   0.7   0:08.81 com.xiaomi.mirr+
+ 3613 system       20   0 7.2G  70M  46M S  0.0   0.6   0:11.95 com.miui.conten+
+ 3827 system       20   0 6.0G  61M  45M S  0.0   0.5   0:07.96 com.mediatek.vo+
+10285 u0_a105      20   0 6.0G  68M  44M S  0.0   0.5   0:07.98 com.miui.core
+26824 u0_a149      20   0 6.0G  71M  44M S  0.0   0.6   0:05.31 com.miui.misound
+ 2111 radio        20   0 5.9G  62M  44M S  0.0   0.5   0:31.00 com.mediatek.sm+
+16231 system       20   0 6.0G  60M  44M S  0.0   0.5   0:11.71 com.miui.wmsvc
+ 2779 system       20   0 6.4G  55M  43M S  0.0   0.4   0:06.68 com.miui.securi+
+ 1152 cameraserver 20   0 4.8G  69M  42M S  0.0   0.5 158:20.91 camerahalserver
+10845 nfc          20   0 6.0G  57M  41M S  0.0   0.4   0:04.34 com.miui.tsmcli+
+ 2126 secure_elem+ 20   0 5.9G  47M  38M S  0.0   0.4   0:05.17 com.android.se
+ 3711 u0_a270      20   0 5.9G  54M  38M S  0.0   0.4   0:04.73 org.ifaa.aidl.m+
+ 3805 u0_a269      20   0 5.9G  54M  38M S  0.0   0.4   0:05.11 com.tencent.sot+
+ 3786 u0_a124      20   0 5.9G  53M  38M S  0.0   0.4   0:04.89 com.xiaomi.xmsf+
+ 3832 u0_a271      20   0 5.8G  51M  36M S  0.0   0.4   0:04.21 org.mipay.andro+
+  801 root         20   0 1.7G  26M  24M S  0.0   0.2   0:10.28 zygote
+ 2078 webview_zyg+ 20   0 1.6G  12M  12M S  0.0   0.1   0:05.04 webview_zygote
+  887 audioserver  20   0 3.1G  16M  11M S  0.0   0.1 128:00.65 audioserver
+ 1089 cameraserver 20   0 2.6G  14M 9.1M S  0.0   0.1   9:01.45 cameraserver
+15948 wifi         20   0 2.2G  10M 8.4M S  0.0   0.0   0:00.82 wpa_supplicant +
+ 9234 wifi         20   0 2.2G 9.1M 8.0M S  0.0   0.0   0:00.10 hostapd
+ 1118 mediaex      20   0 2.6G  13M 7.7M S  0.0   0.1   1:41.82 media.extractor+
+  627 keystore     20   0 2.5G  12M 7.4M S  0.0   0.1   1:50.43 keystore2 /data+
+ 1064 system       20   0 2.5G 7.1M 7.1M S  0.0   0.0   0:00.32 shelld
+ 1115 system       20   0 2.5G 6.8M 6.8M S  0.0   0.0   0:08.40 vtservice
+ 1120 media        20   0 106M  11M 6.8M S  0.0   0.0   5:13.16 mediaserver
+  814 system       -3  -8 2.7G 9.0M 6.8M S  0.0   0.0 371:20.02 android.hardwar+
+  803 audioserver  20   0 245M  36M 6.7M S  0.0   0.3 733:42.94 android.hardwar+[H[JTasks: 865 total,   2 running, 863 sleeping,   0 stopped,   0 zombie
+  Mem:    11553M total,    11222M used,      331M free,        4M buffers
+ Swap:     6143M total,     1623M used,     4520M free,     5677M cached
+800%cpu  90%user   7%nice  36%sys 665%idle   0%iow   0%irq   1%sirq   0%host
+[7m  PID USER         PR  NI VIRT  RES [SHR]S %CPU  %MEM     TIME+ ARGS            [0m
+13150 u0_a246      20   0  12G 655M 440M S  0.3   5.6   4:28.25 com.tencent.mob+
+16012 u0_a245      20   0  11G 619M 402M S  1.3   5.3   6:42.22 com.tencent.mm
+ 1413 system       18  -2  12G 499M 313M S 33.6   4.3 1147:15.2 system_server
+12692 u0_a246      20   0 7.7G 366M 255M S  0.6   3.1   0:03.83 com.tencent.mob+
+17876 u0_a245      20   0 8.6G 292M 215M S  0.0   2.5   1:00.52 com.tencent.mm:+
+27555 u0_a141      20   0  13G 262M 203M S  0.0   2.2   0:07.46 com.miui.voicea+
+ 2173 system       20   0 8.5G 363M 197M S  2.0   3.1 186:40.74 com.android.sys+
+30509 u0_a219      20   0 6.8G 229M 184M S  0.0   1.9   0:03.54 com.google.andr+
+30422 u0_a219      20   0 6.7G 214M 170M S  0.0   1.8   0:03.30 com.google.andr+
+ 2188 u0_a103      10 -10 8.8G 274M 148M S  0.0   2.3  56:34.90 com.miui.home
+14564 u0_a246      20   0 7.3G 217M 134M S  0.3   1.8   5:34.62 com.tencent.mob+
+ 4040 u0_a242      10 -10 7.7G 238M 133M S 10.6   2.0  36:10.98 com.iflytek.inp+
+ 3848 system       20   0 6.7G 225M 133M S  0.0   1.9   6:34.92 com.miui.face
+12933 u0_a219      20   0 6.3G 150M 120M S  0.0   1.3   0:00.72 com.google.andr+
+ 2143 radio        20   0 8.3G 174M 113M S  1.3   1.5  62:44.90 com.android.pho+
+ 2434 system       20   0 7.6G 158M  99M S  0.0   1.3   1:30.67 com.android.set+
+ 9728 u0_a100      20   0 6.9G 135M  98M S  0.0   1.1   0:01.16 com.android.cam+
+ 4127 u0_a76       10 -10 7.3G 151M  98M S  0.0   1.3   1:08.67 com.miui.person+
+ 3551 system       20   0 7.7G 154M  97M S  0.0   1.3  22:16.62 com.miui.securi+
+12345 u0_a137      20   0 6.6G 148M  95M S  0.0   1.2   0:03.14 com.sohu.inputm+
+ 5871 system       20   0 7.1G 128M  91M S  0.0   1.1   1:08.72 com.miui.securi+
+15805 bluetooth    20   0 6.9G 123M  89M S  0.0   1.0   0:12.13 com.android.blu+
+12714 u0_a61       20   0 6.6G 121M  86M S  0.0   1.0   0:08.14 android.process+
+ 1993 u0_a156      20   0 6.5G 124M  84M S 11.6   1.0   6:00.09 com.miui.miwall+
+14243 u0_a223      20   0 6.0G 117M  82M S 11.0   1.0   0:02.73 com.google.andr+
+ 2605 system       20   0  10G 116M  80M S  0.0   1.0  32:59.64 com.miui.aod
+12396 u0_a137      20   0 6.5G 112M  79M S  0.0   0.9   0:02.34 com.sohu.inputm+
+14456 u0_a118      20   0 6.7G 115M  79M S  0.0   0.9   0:05.44 com.miui.system+
+14098 u0_a144      20   0 6.3G 116M  79M S  0.0   0.9   0:01.93 com.miui.clouds+
+11600 u0_a119      20   0 6.3G 114M  78M S  0.0   0.9   0:12.15 com.miui.analyt+
+ 9836 u0_a74       20   0 6.0G 107M  75M S  0.0   0.9   0:00.62 android.process+
+ 9692 system       20   0 6.0G 104M  74M S  0.0   0.9   0:00.74 com.xiaomi.mise+
+11661 system       20   0 6.0G  98M  73M S  0.3   0.8   0:02.14 com.miui.screen+
+12074 system       20   0 6.1G 101M  71M S  0.0   0.8   0:01.58 com.xiaomi.mise+
+15495 u0_a147      20   0 6.3G 101M  70M S  0.0   0.8   3:51.82 com.xiaomi.xmsf
+  909 system       -3  -8 3.2G  87M  69M S  1.0   0.7 511:37.96 surfaceflinger
+30440 u0_a219      20   0 5.9G  96M  68M S  0.0   0.8   0:00.61 com.google.proc+
+27665 system       20   0 6.1G  92M  67M S  0.0   0.7   0:00.53 com.xiaomi.aias+
+ 7953 u0_a202      20   0 6.9G 111M  66M S  0.0   0.9  19:33.74 com.mi.health
+ 4780 system       20   0 7.4G  97M  65M S  0.0   0.8   7:12.60 com.xiaomi.mi_c+
+ 5284 system       20   0 6.9G 105M  65M S  0.0   0.9  14:00.04 com.miui.powerk+
+14404 u0_a162      20   0 5.9G  88M  64M S  0.0   0.7   0:01.47 com.miui.phrase
+ 9772 u0_a152      20   0 5.8G  93M  64M S  0.0   0.8   0:00.55 com.android.htm+
+ 3581 u0_a198      20   0 6.4G 100M  63M S  0.0   0.8  19:05.87 com.android.pro+
+ 3646 system       20   0 6.5G  97M  63M S  0.0   0.8   2:37.64 com.miui.daemon
+ 5768 system       20   0 6.1G  91M  62M S  0.0   0.7   2:21.52 com.xiaomi.joyo+
+23216 u0_a145      20   0 6.6G  91M  62M S  0.0   0.7   0:00.61 com.miui.securi+
+ 4161 u0_a139      20   0 6.5G  86M  61M S  7.6   0.7   4:37.86 com.xiaomi.meto+
+ 8693 system       20   0 6.2G  88M  60M S  6.3   0.7   0:13.82 com.xiaomi.mise+
+ 4820 u0_a64       20   0 6.3G  88M  60M S  1.3   0.7   8:43.11 com.lbe.securit+
+ 7803 u0_a193      20   0 6.1G  83M  59M S  0.0   0.7   0:00.44 com.android.per+
+ 4223 system       20   0 6.1G  80M  59M S  4.3   0.6   1:58.09 com.xiaomi.loca+
+ 9641 u0_a84       20   0 6.0G  84M  58M S  0.3   0.7   4:21.76 com.miui.mishar+
+11260 bluetooth    20   0 6.6G  84M  58M S  0.0   0.7   1:53.79 com.xiaomi.blue+
+31058 radio        20   0 6.1G  81M  57M S  0.0   0.6   0:00.44 com.miui.vsimco+
+ 7582 system       20   0 6.4G  83M  56M S  0.0   0.7   0:13.91 com.android.set+
+27768 u0_a135      20   0 5.8G  84M  55M S  0.0   0.7   0:00.42 com.xiaomi.bsp.+
+25404 u0_a186      20   0 1.3G  76M  55M S  0.3   0.6   0:00.42 com.google.andr+
+ 3733 system       20   0 6.0G  75M  55M S  0.0   0.6   0:24.81 .slas
+ 3672 u0_a59       20   0 6.1G  74M  54M S  0.0   0.6   2:22.18 system
+ 6197 system       20   0 6.0G  81M  54M S  0.0   0.7   0:34.75 com.miui.notifi+
+13916 u0_a113      20   0 5.9G  67M  52M S  0.6   0.5   0:00.10 com.android.pri+
+  800 root         20   0 6.1G  55M  51M S  0.0   0.4   2:07.96 zygote64
+ 2139 finddevice   20   0 6.6G  71M  51M S  0.0   0.6   2:31.72 com.xiaomi.find+
+ 4031 u0_a157      20   0 6.4G  79M  51M S  0.0   0.6   1:05.22 com.milink.serv+
+17323 system       20   0 6.3G  76M  51M S  0.0   0.6   0:04.02 com.xiaomi.miga+
+ 3741 u0_a98       20   0 5.9G  67M  50M S  0.0   0.5   0:05.57 com.xiaomi.mircs
+14600 system       20   0 5.9G  55M  49M S  6.6   0.4   0:00.34 com.modemdebug
+ 2707 radio        20   0 6.3G  67M  49M S  0.0   0.5   0:51.22 com.mediatek.ims
+14563 system       20   0 5.8G  68M  49M S  8.6   0.5   0:00.28 com.android.key+
+ 3648 nfc          20   0 6.2G  99M  48M S  0.0   0.8   0:43.09 com.android.nfc
+ 3736 u0_a62       20   0 6.0G  85M  47M S  0.0   0.7   4:57.53 com.miui.voicet+
+ 2565 system       20   0 6.1G  86M  47M S  0.0   0.7   0:08.81 com.xiaomi.mirr+
+ 3613 system       20   0 7.2G  70M  46M S  0.0   0.6   0:11.95 com.miui.conten+
+ 3827 system       20   0 6.0G  61M  45M S  0.0   0.5   0:07.96 com.mediatek.vo+
+10285 u0_a105      20   0 6.0G  68M  44M S  0.0   0.5   0:07.98 com.miui.core
+26824 u0_a149      20   0 6.0G  71M  44M S  0.0   0.6   0:05.31 com.miui.misound
+ 2111 radio        20   0 5.9G  62M  44M S  0.0   0.5   0:31.00 com.mediatek.sm+
+16231 system       20   0 6.0G  60M  44M S  6.3   0.5   0:11.71 com.miui.wmsvc
+ 2779 system       20   0 6.4G  55M  43M S  4.6   0.4   0:06.68 com.miui.securi+
+ 1152 cameraserver 20   0 4.8G  69M  42M S  0.0   0.5 158:20.91 camerahalserver
+10845 nfc          20   0 6.0G  57M  41M S  0.0   0.4   0:04.34 com.miui.tsmcli+
+ 2126 secure_elem+ 20   0 5.9G  47M  38M S  0.0   0.4   0:05.17 com.android.se
+ 3711 u0_a270      20   0 5.9G  54M  38M S  0.0   0.4   0:04.73 org.ifaa.aidl.m+
+ 3805 u0_a269      20   0 5.9G  54M  38M S  0.0   0.4   0:05.11 com.tencent.sot+
+ 3786 u0_a124      20   0 5.9G  53M  38M S  0.0   0.4   0:04.89 com.xiaomi.xmsf+
+ 3832 u0_a271      20   0 5.8G  51M  36M S  0.0   0.4   0:04.21 org.mipay.andro+
+  801 root         20   0 1.7G  26M  24M S  0.0   0.2   0:10.28 zygote
+ 2078 webview_zyg+ 20   0 1.6G  12M  12M S  0.0   0.1   0:05.04 webview_zygote
+  887 audioserver  20   0 3.1G  16M  11M S  0.0   0.1 128:00.65 audioserver
+ 1089 cameraserver 20   0 2.6G  14M 9.1M S  0.0   0.1   9:01.45 cameraserver
+15948 wifi         20   0 2.2G  10M 8.4M S  0.0   0.0   0:00.82 wpa_supplicant +
+ 9234 wifi         20   0 2.2G 9.1M 8.0M S  0.3   0.0   0:00.10 hostapd
+ 1118 mediaex      20   0 2.6G  13M 7.7M S  0.0   0.1   1:41.82 media.extractor+
+  627 keystore     20   0 2.5G  12M 7.4M S  0.0   0.1   1:50.43 keystore2 /data+
+ 1064 system       20   0 2.5G 7.1M 7.1M S  0.0   0.0   0:00.32 shelld
+ 1115 system       20   0 2.5G 6.8M 6.8M S  0.0   0.0   0:08.40 vtservice
+  814 system       -3  -8 2.7G 9.0M 6.8M S  0.6   0.0 371:20.02 android.hardwar+
+ 1120 media        20   0 106M  11M 6.8M S  0.0   0.0   5:13.16 mediaserver
+  803 audioserver  20   0 245M  36M 6.7M S  0.0   0.3 733:42.94 android.hardwar+[H[JTasks: 865 total,   2 running, 863 sleeping,   0 stopped,   0 zombie
+  Mem:    11553M total,    11221M used,      332M free,        4M buffers
+ Swap:     6143M total,     1620M used,     4523M free,     5678M cached
+800%cpu  90%user   7%nice  36%sys 665%idle   0%iow   0%irq   1%sirq   0%host
+[7m  PID USER         PR  NI VIRT  RES [SHR]S %CPU  %MEM     TIME+ ARGS            [0m
+13150 u0_a246      20   0  12G 655M 440M S  0.3   5.6   4:28.25 com.tencent.mob+
+16012 u0_a245      20   0  11G 619M 402M S  1.3   5.3   6:42.22 com.tencent.mm
+ 1413 system       18  -2  12G 499M 313M S 33.6   4.3 1147:15.2 system_server
+12692 u0_a246      20   0 7.7G 366M 255M S  0.6   3.1   0:03.83 com.tencent.mob+
+17876 u0_a245      20   0 8.6G 292M 215M S  0.0   2.5   1:00.52 com.tencent.mm:+
+27555 u0_a141      20   0  13G 262M 203M S  0.0   2.2   0:07.46 com.miui.voicea+
+ 2173 system       20   0 8.5G 363M 197M S  2.0   3.1 186:40.74 com.android.sys+
+30509 u0_a219      20   0 6.8G 229M 184M S  0.0   1.9   0:03.54 com.google.andr+
+30422 u0_a219      20   0 6.7G 214M 170M S  0.0   1.8   0:03.30 com.google.andr+
+ 2188 u0_a103      10 -10 8.8G 274M 148M S  0.0   2.3  56:34.90 com.miui.home
+14564 u0_a246      20   0 7.3G 217M 134M S  0.3   1.8   5:34.62 com.tencent.mob+
+ 4040 u0_a242      10 -10 7.7G 238M 133M S 10.6   2.0  36:10.98 com.iflytek.inp+
+ 3848 system       20   0 6.7G 225M 133M S  0.0   1.9   6:34.92 com.miui.face
+12933 u0_a219      20   0 6.3G 150M 120M S  0.0   1.3   0:00.72 com.google.andr+
+ 2143 radio        20   0 8.3G 174M 113M S  1.3   1.5  62:44.90 com.android.pho+
+ 2434 system       20   0 7.6G 158M  99M S  0.0   1.3   1:30.67 com.android.set+
+ 9728 u0_a100      20   0 6.9G 135M  98M S  0.0   1.1   0:01.16 com.android.cam+
+ 4127 u0_a76       10 -10 7.3G 151M  98M S  0.0   1.3   1:08.67 com.miui.person+
+ 3551 system       20   0 7.7G 154M  97M S  0.0   1.3  22:16.62 com.miui.securi+
+12345 u0_a137      20   0 6.6G 148M  95M S  0.0   1.2   0:03.14 com.sohu.inputm+
+ 5871 system       20   0 7.1G 128M  91M S  0.0   1.1   1:08.72 com.miui.securi+
+15805 bluetooth    20   0 6.9G 123M  89M S  0.0   1.0   0:12.13 com.android.blu+
+12714 u0_a61       20   0 6.6G 121M  86M S  0.0   1.0   0:08.14 android.process+
+ 1993 u0_a156      20   0 6.5G 124M  84M S 11.6   1.0   6:00.09 com.miui.miwall+
+14243 u0_a223      20   0 6.0G 117M  82M S 11.0   1.0   0:02.73 com.google.andr+
+ 2605 system       20   0  10G 116M  80M S  0.0   1.0  32:59.64 com.miui.aod
+12396 u0_a137      20   0 6.5G 112M  79M S  0.0   0.9   0:02.34 com.sohu.inputm+
+14456 u0_a118      20   0 6.7G 115M  79M S  0.0   0.9   0:05.44 com.miui.system+
+14098 u0_a144      20   0 6.3G 116M  79M S  0.0   0.9   0:01.93 com.miui.clouds+
+11600 u0_a119      20   0 6.3G 114M  78M S  0.0   0.9   0:12.15 com.miui.analyt+
+ 9836 u0_a74       20   0 6.0G 107M  75M S  0.0   0.9   0:00.62 android.process+
+ 9692 system       20   0 6.0G 104M  74M S  0.0   0.9   0:00.74 com.xiaomi.mise+
+11661 system       20   0 6.0G  98M  73M S  0.3   0.8   0:02.14 com.miui.screen+
+12074 system       20   0 6.1G 101M  71M S  0.0   0.8   0:01.58 com.xiaomi.mise+
+15495 u0_a147      20   0 6.3G 101M  70M S  0.0   0.8   3:51.82 com.xiaomi.xmsf
+  909 system       -3  -8 3.2G  87M  69M S  1.0   0.7 511:37.96 surfaceflinger
+30440 u0_a219      20   0 5.9G  96M  68M S  0.0   0.8   0:00.61 com.google.proc+
+27665 system       20   0 6.1G  92M  67M S  0.0   0.7   0:00.53 com.xiaomi.aias+
+ 7953 u0_a202      20   0 6.9G 111M  66M S  0.0   0.9  19:33.74 com.mi.health
+ 4780 system       20   0 7.4G  97M  65M S  0.0   0.8   7:12.60 com.xiaomi.mi_c+
+ 5284 system       20   0 6.9G 105M  65M S  0.0   0.9  14:00.04 com.miui.powerk+
+14404 u0_a162      20   0 5.9G  88M  64M S  0.0   0.7   0:01.47 com.miui.phrase
+ 9772 u0_a152      20   0 5.8G  93M  64M S  0.0   0.8   0:00.55 com.android.htm+
+ 3581 u0_a198      20   0 6.4G 100M  63M S  0.0   0.8  19:05.87 com.android.pro+
+ 3646 system       20   0 6.5G  97M  63M S  0.0   0.8   2:37.64 com.miui.daemon
+ 5768 system       20   0 6.1G  91M  62M S  0.0   0.7   2:21.52 com.xiaomi.joyo+
+23216 u0_a145      20   0 6.6G  91M  62M S  0.0   0.7   0:00.61 com.miui.securi+
+ 4161 u0_a139      20   0 6.5G  86M  61M S  7.6   0.7   4:37.86 com.xiaomi.meto+
+ 8693 system       20   0 6.2G  88M  60M S  6.3   0.7   0:13.82 com.xiaomi.mise+
+ 4820 u0_a64       20   0 6.3G  88M  60M S  1.3   0.7   8:43.11 com.lbe.securit+
+ 7803 u0_a193      20   0 6.1G  83M  59M S  0.0   0.7   0:00.44 com.android.per+
+ 4223 system       20   0 6.1G  80M  59M S  4.3   0.6   1:58.09 com.xiaomi.loca+
+ 9641 u0_a84       20   0 6.0G  84M  58M S  0.3   0.7   4:21.76 com.miui.mishar+
+11260 bluetooth    20   0 6.6G  84M  58M S  0.0   0.7   1:53.79 com.xiaomi.blue+
+31058 radio        20   0 6.1G  81M  57M S  0.0   0.6   0:00.44 com.miui.vsimco+
+ 7582 system       20   0 6.4G  83M  56M S  0.0   0.7   0:13.91 com.android.set+
+27768 u0_a135      20   0 5.8G  84M  55M S  0.0   0.7   0:00.42 com.xiaomi.bsp.+
+25404 u0_a186      20   0 1.3G  76M  55M S  0.3   0.6   0:00.42 com.google.andr+
+ 3733 system       20   0 6.0G  75M  55M S  0.0   0.6   0:24.81 .slas
+ 3672 u0_a59       20   0 6.1G  74M  54M S  0.0   0.6   2:22.18 system
+ 6197 system       20   0 6.0G  81M  54M S  0.0   0.7   0:34.75 com.miui.notifi+
+13916 u0_a113      20   0 5.9G  67M  52M S  0.6   0.5   0:00.10 com.android.pri+
+  800 root         20   0 6.1G  55M  51M S  0.0   0.4   2:07.96 zygote64
+ 2139 finddevice   20   0 6.6G  71M  51M S  0.0   0.6   2:31.72 com.xiaomi.find+
+ 4031 u0_a157      20   0 6.4G  79M  51M S  0.0   0.6   1:05.22 com.milink.serv+
+17323 system       20   0 6.3G  76M  51M S  0.0   0.6   0:04.02 com.xiaomi.miga+
+ 3741 u0_a98       20   0 5.9G  67M  50M S  0.0   0.5   0:05.57 com.xiaomi.mircs
+14600 system       20   0 5.9G  55M  49M S  6.6   0.4   0:00.34 com.modemdebug
+ 2707 radio        20   0 6.3G  67M  49M S  0.0   0.5   0:51.22 com.mediatek.ims
+14563 system       20   0 5.8G  68M  49M S  8.6   0.5   0:00.28 com.android.key+
+ 3648 nfc          20   0 6.2G  99M  48M S  0.0   0.8   0:43.09 com.android.nfc
+ 3736 u0_a62       20   0 6.0G  85M  47M S  0.0   0.7   4:57.53 com.miui.voicet+
+ 2565 system       20   0 6.1G  86M  47M S  0.0   0.7   0:08.81 com.xiaomi.mirr+
+ 3613 system       20   0 7.2G  70M  46M S  0.0   0.6   0:11.95 com.miui.conten+
+ 3827 system       20   0 6.0G  61M  45M S  0.0   0.5   0:07.96 com.mediatek.vo+
+10285 u0_a105      20   0 6.0G  68M  44M S  0.0   0.5   0:07.98 com.miui.core
+26824 u0_a149      20   0 6.0G  71M  44M S  0.0   0.6   0:05.31 com.miui.misound
+ 2111 radio        20   0 5.9G  62M  44M S  0.0   0.5   0:31.00 com.mediatek.sm+
+16231 system       20   0 6.0G  60M  44M S  6.3   0.5   0:11.71 com.miui.wmsvc
+ 2779 system       20   0 6.4G  55M  43M S  4.6   0.4   0:06.68 com.miui.securi+
+ 1152 cameraserver 20   0 4.8G  69M  42M S  0.0   0.5 158:20.91 camerahalserver
+10845 nfc          20   0 6.0G  57M  41M S  0.0   0.4   0:04.34 com.miui.tsmcli+
+ 2126 secure_elem+ 20   0 5.9G  47M  38M S  0.0   0.4   0:05.17 com.android.se
+ 3711 u0_a270      20   0 5.9G  54M  38M S  0.0   0.4   0:04.73 org.ifaa.aidl.m+
+ 3805 u0_a269      20   0 5.9G  54M  38M S  0.0   0.4   0:05.11 com.tencent.sot+
+ 3786 u0_a124      20   0 5.9G  53M  38M S  0.0   0.4   0:04.89 com.xiaomi.xmsf+
+ 3832 u0_a271      20   0 5.8G  51M  36M S  0.0   0.4   0:04.21 org.mipay.andro+
+  801 root         20   0 1.7G  26M  24M S  0.0   0.2   0:10.28 zygote
+ 2078 webview_zyg+ 20   0 1.6G  12M  12M S  0.0   0.1   0:05.04 webview_zygote
+  887 audioserver  20   0 3.1G  16M  11M S  0.0   0.1 128:00.65 audioserver
+ 1089 cameraserver 20   0 2.6G  14M 9.1M S  0.0   0.1   9:01.45 cameraserver
+15948 wifi         20   0 2.2G  10M 8.4M S  0.0   0.0   0:00.82 wpa_supplicant +
+ 9234 wifi         20   0 2.2G 9.1M 8.0M S  0.3   0.0   0:00.10 hostapd
+ 1118 mediaex      20   0 2.6G  13M 7.7M S  0.0   0.1   1:41.82 media.extractor+
+  627 keystore     20   0 2.5G  12M 7.4M S  0.0   0.1   1:50.43 keystore2 /data+
+ 1064 system       20   0 2.5G 7.1M 7.1M S  0.0   0.0   0:00.32 shelld
+ 1115 system       20   0 2.5G 6.8M 6.8M S  0.0   0.0   0:08.40 vtservice
+  814 system       -3  -8 2.7G 9.0M 6.8M S  0.6   0.0 371:20.02 android.hardwar+
+ 1120 media        20   0 106M  11M 6.8M S  0.0   0.0   5:13.16 mediaserver
+  803 audioserver  20   0 245M  36M 6.7M S  0.0   0.3 733:42.94 android.hardwar+[H[JTasks: 865 total,   2 running, 863 sleeping,   0 stopped,   0 zombie
+  Mem:    11553M total,    11221M used,      331M free,        4M buffers
+ Swap:     6143M total,     1620M used,     4523M free,     5678M cached
+800%cpu  90%user   7%nice  36%sys 665%idle   0%iow   0%irq   1%sirq   0%host
+[7m  PID USER         PR  NI VIRT  RES [SHR]S %CPU  %MEM     TIME+ ARGS            [0m
+13150 u0_a246      20   0  12G 655M 440M S  0.3   5.6   4:28.25 com.tencent.mob+
+16012 u0_a245      20   0  11G 619M 402M S  1.3   5.3   6:42.22 com.tencent.mm
+ 1413 system       18  -2  12G 499M 313M S 33.6   4.3 1147:15.2 system_server
+12692 u0_a246      20   0 7.7G 366M 255M S  0.6   3.1   0:03.83 com.tencent.mob+
+17876 u0_a245      20   0 8.6G 292M 215M S  0.0   2.5   1:00.52 com.tencent.mm:+
+27555 u0_a141      20   0  13G 262M 203M S  0.0   2.2   0:07.46 com.miui.voicea+
+ 2173 system       20   0 8.5G 363M 197M S  2.0   3.1 186:40.74 com.android.sys+
+30509 u0_a219      20   0 6.8G 229M 184M S  0.0   1.9   0:03.54 com.google.andr+
+30422 u0_a219      20   0 6.7G 214M 170M S  0.0   1.8   0:03.30 com.google.andr+
+ 2188 u0_a103      10 -10 8.8G 274M 148M S  0.0   2.3  56:34.90 com.miui.home
+14564 u0_a246      20   0 7.3G 217M 134M S  0.3   1.8   5:34.62 com.tencent.mob+
+ 4040 u0_a242      10 -10 7.7G 238M 133M S 10.6   2.0  36:10.98 com.iflytek.inp+
+ 3848 system       20   0 6.7G 225M 133M S  0.0   1.9   6:34.92 com.miui.face
+12933 u0_a219      20   0 6.3G 150M 120M S  0.0   1.3   0:00.72 com.google.andr+
+ 2143 radio        20   0 8.3G 174M 113M S  1.3   1.5  62:44.90 com.android.pho+
+ 2434 system       20   0 7.6G 158M  99M S  0.0   1.3   1:30.67 com.android.set+
+ 9728 u0_a100      20   0 6.9G 135M  98M S  0.0   1.1   0:01.16 com.android.cam+
+ 4127 u0_a76       10 -10 7.3G 151M  98M S  0.0   1.3   1:08.67 com.miui.person+
+ 3551 system       20   0 7.7G 154M  97M S  0.0   1.3  22:16.62 com.miui.securi+
+12345 u0_a137      20   0 6.6G 148M  95M S  0.0   1.2   0:03.14 com.sohu.inputm+
+ 5871 system       20   0 7.1G 128M  91M S  0.0   1.1   1:08.72 com.miui.securi+
+15805 bluetooth    20   0 6.9G 123M  89M S  0.0   1.0   0:12.13 com.android.blu+
+12714 u0_a61       20   0 6.6G 121M  86M S  0.0   1.0   0:08.14 android.process+
+ 1993 u0_a156      20   0 6.5G 124M  84M S 11.6   1.0   6:00.09 com.miui.miwall+
+14243 u0_a223      20   0 6.0G 117M  82M S 11.0   1.0   0:02.73 com.google.andr+
+ 2605 system       20   0  10G 116M  80M S  0.0   1.0  32:59.64 com.miui.aod
+12396 u0_a137      20   0 6.5G 112M  79M S  0.0   0.9   0:02.34 com.sohu.inputm+
+14456 u0_a118      20   0 6.7G 115M  79M S  0.0   0.9   0:05.44 com.miui.system+
+14098 u0_a144      20   0 6.3G 116M  79M S  0.0   0.9   0:01.93 com.miui.clouds+
+11600 u0_a119      20   0 6.3G 114M  78M S  0.0   0.9   0:12.15 com.miui.analyt+
+ 9836 u0_a74       20   0 6.0G 107M  75M S  0.0   0.9   0:00.62 android.process+
+ 9692 system       20   0 6.0G 104M  74M S  0.0   0.9   0:00.74 com.xiaomi.mise+
+11661 system       20   0 6.0G  98M  73M S  0.3   0.8   0:02.14 com.miui.screen+
+12074 system       20   0 6.1G 101M  71M S  0.0   0.8   0:01.58 com.xiaomi.mise+
+15495 u0_a147      20   0 6.3G 101M  70M S  0.0   0.8   3:51.82 com.xiaomi.xmsf
+  909 system       -3  -8 3.2G  87M  69M S  1.0   0.7 511:37.96 surfaceflinger
+30440 u0_a219      20   0 5.9G  96M  68M S  0.0   0.8   0:00.61 com.google.proc+
+27665 system       20   0 6.1G  92M  67M S  0.0   0.7   0:00.53 com.xiaomi.aias+
+ 7953 u0_a202      20   0 6.9G 111M  66M S  0.0   0.9  19:33.74 com.mi.health
+ 4780 system       20   0 7.4G  97M  65M S  0.0   0.8   7:12.60 com.xiaomi.mi_c+
+ 5284 system       20   0 6.9G 105M  65M S  0.0   0.9  14:00.04 com.miui.powerk+
+14404 u0_a162      20   0 5.9G  88M  64M S  0.0   0.7   0:01.47 com.miui.phrase
+ 9772 u0_a152      20   0 5.8G  93M  64M S  0.0   0.8   0:00.55 com.android.htm+
+ 3581 u0_a198      20   0 6.4G 100M  63M S  0.0   0.8  19:05.87 com.android.pro+
+ 3646 system       20   0 6.5G  97M  63M S  0.0   0.8   2:37.64 com.miui.daemon
+ 5768 system       20   0 6.1G  91M  62M S  0.0   0.7   2:21.52 com.xiaomi.joyo+
+23216 u0_a145      20   0 6.6G  91M  62M S  0.0   0.7   0:00.61 com.miui.securi+
+ 4161 u0_a139      20   0 6.5G  86M  61M S  7.6   0.7   4:37.86 com.xiaomi.meto+
+ 8693 system       20   0 6.2G  88M  60M S  6.3   0.7   0:13.82 com.xiaomi.mise+
+ 4820 u0_a64       20   0 6.3G  88M  60M S  1.3   0.7   8:43.11 com.lbe.securit+
+ 7803 u0_a193      20   0 6.1G  83M  59M S  0.0   0.7   0:00.44 com.android.per+
+ 4223 system       20   0 6.1G  80M  59M S  4.3   0.6   1:58.09 com.xiaomi.loca+
+ 9641 u0_a84       20   0 6.0G  84M  58M S  0.3   0.7   4:21.76 com.miui.mishar+
+11260 bluetooth    20   0 6.6G  84M  58M S  0.0   0.7   1:53.79 com.xiaomi.blue+
+31058 radio        20   0 6.1G  81M  57M S  0.0   0.6   0:00.44 com.miui.vsimco+
+ 7582 system       20   0 6.4G  83M  56M S  0.0   0.7   0:13.91 com.android.set+
+27768 u0_a135      20   0 5.8G  84M  55M S  0.0   0.7   0:00.42 com.xiaomi.bsp.+
+25404 u0_a186      20   0 1.3G  76M  55M S  0.3   0.6   0:00.42 com.google.andr+
+ 3733 system       20   0 6.0G  75M  55M S  0.0   0.6   0:24.81 .slas
+ 3672 u0_a59       20   0 6.1G  74M  54M S  0.0   0.6   2:22.18 system
+ 6197 system       20   0 6.0G  81M  54M S  0.0   0.7   0:34.75 com.miui.notifi+
+13916 u0_a113      20   0 5.9G  67M  52M S  0.6   0.5   0:00.10 com.android.pri+
+  800 root         20   0 6.1G  55M  51M S  0.0   0.4   2:07.96 zygote64
+ 2139 finddevice   20   0 6.6G  71M  51M S  0.0   0.6   2:31.72 com.xiaomi.find+
+ 4031 u0_a157      20   0 6.4G  79M  51M S  0.0   0.6   1:05.22 com.milink.serv+
+17323 system       20   0 6.3G  76M  51M S  0.0   0.6   0:04.02 com.xiaomi.miga+
+ 3741 u0_a98       20   0 5.9G  67M  50M S  0.0   0.5   0:05.57 com.xiaomi.mircs
+14600 system       20   0 5.9G  55M  49M S  6.6   0.4   0:00.34 com.modemdebug
+ 2707 radio        20   0 6.3G  67M  49M S  0.0   0.5   0:51.22 com.mediatek.ims
+14563 system       20   0 5.8G  68M  49M S  8.6   0.5   0:00.28 com.android.key+
+ 3648 nfc          20   0 6.2G  99M  48M S  0.0   0.8   0:43.09 com.android.nfc
+ 3736 u0_a62       20   0 6.0G  85M  47M S  0.0   0.7   4:57.53 com.miui.voicet+
+ 2565 system       20   0 6.1G  86M  47M S  0.0   0.7   0:08.81 com.xiaomi.mirr+
+ 3613 system       20   0 7.2G  70M  46M S  0.0   0.6   0:11.95 com.miui.conten+
+ 3827 system       20   0 6.0G  61M  45M S  0.0   0.5   0:07.96 com.mediatek.vo+
+10285 u0_a105      20   0 6.0G  68M  44M S  0.0   0.5   0:07.98 com.miui.core
+26824 u0_a149      20   0 6.0G  71M  44M S  0.0   0.6   0:05.31 com.miui.misound
+ 2111 radio        20   0 5.9G  62M  44M S  0.0   0.5   0:31.00 com.mediatek.sm+
+16231 system       20   0 6.0G  60M  44M S  6.3   0.5   0:11.71 com.miui.wmsvc
+ 2779 system       20   0 6.4G  55M  43M S  4.6   0.4   0:06.68 com.miui.securi+
+ 1152 cameraserver 20   0 4.8G  69M  42M S  0.0   0.5 158:20.91 camerahalserver
+10845 nfc          20   0 6.0G  57M  41M S  0.0   0.4   0:04.34 com.miui.tsmcli+
+ 2126 secure_elem+ 20   0 5.9G  47M  38M S  0.0   0.4   0:05.17 com.android.se
+ 3711 u0_a270      20   0 5.9G  54M  38M S  0.0   0.4   0:04.73 org.ifaa.aidl.m+
+ 3805 u0_a269      20   0 5.9G  54M  38M S  0.0   0.4   0:05.11 com.tencent.sot+
+ 3786 u0_a124      20   0 5.9G  53M  38M S  0.0   0.4   0:04.89 com.xiaomi.xmsf+
+ 3832 u0_a271      20   0 5.8G  51M  36M S  0.0   0.4   0:04.21 org.mipay.andro+
+  801 root         20   0 1.7G  26M  24M S  0.0   0.2   0:10.28 zygote
+ 2078 webview_zyg+ 20   0 1.6G  12M  12M S  0.0   0.1   0:05.04 webview_zygote
+  887 audioserver  20   0 3.1G  16M  11M S  0.0   0.1 128:00.65 audioserver
+ 1089 cameraserver 20   0 2.6G  14M 9.1M S  0.0   0.1   9:01.45 cameraserver
+15948 wifi         20   0 2.2G  10M 8.4M S  0.0   0.0   0:00.82 wpa_supplicant +
+ 9234 wifi         20   0 2.2G 9.1M 8.0M S  0.3   0.0   0:00.10 hostapd
+ 1118 mediaex      20   0 2.6G  13M 7.7M S  0.0   0.1   1:41.82 media.extractor+
+  627 keystore     20   0 2.5G  12M 7.4M S  0.0   0.1   1:50.43 keystore2 /data+
+ 1064 system       20   0 2.5G 7.1M 7.1M S  0.0   0.0   0:00.32 shelld
+ 1115 system       20   0 2.5G 6.8M 6.8M S  0.0   0.0   0:08.40 vtservice
+  814 system       -3  -8 2.7G 9.0M 6.8M S  0.6   0.0 371:20.02 android.hardwar+
+ 1120 media        20   0 106M  11M 6.8M S  0.0   0.0   5:13.16 mediaserver
+  803 audioserver  20   0 245M  36M 6.7M S  0.0   0.3 733:42.94 android.hardwar+[H[JTasks: 865 total,   2 running, 863 sleeping,   0 stopped,   0 zombie
+  Mem:    11553M total,    11222M used,      331M free,        4M buffers
+ Swap:     6143M total,     1619M used,     4524M free,     5678M cached
+800%cpu  90%user   7%nice  36%sys 665%idle   0%iow   0%irq   1%sirq   0%host
+[7m  PID USER         PR  NI VIRT  RES [SHR]S %CPU  %MEM     TIME+ ARGS            [0m
+13150 u0_a246      20   0  12G 655M 440M S  0.3   5.6   4:28.25 com.tencent.mob+
+16012 u0_a245      20   0  11G 619M 402M S  1.3   5.3   6:42.22 com.tencent.mm
+ 1413 system       18  -2  12G 499M 313M S 33.6   4.3 1147:15.2 system_server
+12692 u0_a246      20   0 7.7G 366M 255M S  0.6   3.1   0:03.83 com.tencent.mob+
+17876 u0_a245      20   0 8.6G 292M 215M S  0.0   2.5   1:00.52 com.tencent.mm:+
+27555 u0_a141      20   0  13G 262M 203M S  0.0   2.2   0:07.46 com.miui.voicea+
+ 2173 system       20   0 8.5G 363M 197M S  2.0   3.1 186:40.74 com.android.sys+
+30509 u0_a219      20   0 6.8G 229M 184M S  0.0   1.9   0:03.54 com.google.andr+
+30422 u0_a219      20   0 6.7G 214M 170M S  0.0   1.8   0:03.30 com.google.andr+
+ 2188 u0_a103      10 -10 8.8G 274M 148M S  0.0   2.3  56:34.90 com.miui.home
+14564 u0_a246      20   0 7.3G 217M 134M S  0.3   1.8   5:34.62 com.tencent.mob+
+ 4040 u0_a242      10 -10 7.7G 238M 133M S 10.6   2.0  36:10.98 com.iflytek.inp+
+ 3848 system       20   0 6.7G 225M 133M S  0.0   1.9   6:34.92 com.miui.face
+12933 u0_a219      20   0 6.3G 150M 120M S  0.0   1.3   0:00.72 com.google.andr+
+ 2143 radio        20   0 8.3G 174M 113M S  1.3   1.5  62:44.90 com.android.pho+
+ 2434 system       20   0 7.6G 158M  99M S  0.0   1.3   1:30.67 com.android.set+
+ 9728 u0_a100      20   0 6.9G 135M  98M S  0.0   1.1   0:01.16 com.android.cam+
+ 4127 u0_a76       10 -10 7.3G 151M  98M S  0.0   1.3   1:08.67 com.miui.person+
+ 3551 system       20   0 7.7G 154M  97M S  0.0   1.3  22:16.62 com.miui.securi+
+12345 u0_a137      20   0 6.6G 148M  95M S  0.0   1.2   0:03.14 com.sohu.inputm+
+ 5871 system       20   0 7.1G 128M  91M S  0.0   1.1   1:08.72 com.miui.securi+
+15805 bluetooth    20   0 6.9G 123M  89M S  0.0   1.0   0:12.13 com.android.blu+
+12714 u0_a61       20   0 6.6G 121M  86M S  0.0   1.0   0:08.14 android.process+
+ 1993 u0_a156      20   0 6.5G 124M  84M S 11.6   1.0   6:00.09 com.miui.miwall+
+14243 u0_a223      20   0 6.0G 117M  82M S 11.0   1.0   0:02.73 com.google.andr+
+ 2605 system       20   0  10G 116M  80M S  0.0   1.0  32:59.64 com.miui.aod
+12396 u0_a137      20   0 6.5G 112M  79M S  0.0   0.9   0:02.34 com.sohu.inputm+
+14456 u0_a118      20   0 6.7G 115M  79M S  0.0   0.9   0:05.44 com.miui.system+
+14098 u0_a144      20   0 6.3G 116M  79M S  0.0   0.9   0:01.93 com.miui.clouds+
+11600 u0_a119      20   0 6.3G 114M  78M S  0.0   0.9   0:12.15 com.miui.analyt+
+ 9836 u0_a74       20   0 6.0G 107M  75M S  0.0   0.9   0:00.62 android.process+
+ 9692 system       20   0 6.0G 104M  74M S  0.0   0.9   0:00.74 com.xiaomi.mise+
+11661 system       20   0 6.0G  98M  73M S  0.3   0.8   0:02.14 com.miui.screen+
+12074 system       20   0 6.1G 101M  71M S  0.0   0.8   0:01.58 com.xiaomi.mise+
+15495 u0_a147      20   0 6.3G 101M  70M S  0.0   0.8   3:51.82 com.xiaomi.xmsf
+  909 system       -3  -8 3.2G  87M  69M S  1.0   0.7 511:37.96 surfaceflinger
+30440 u0_a219      20   0 5.9G  96M  68M S  0.0   0.8   0:00.61 com.google.proc+
+27665 system       20   0 6.1G  92M  67M S  0.0   0.7   0:00.53 com.xiaomi.aias+
+ 7953 u0_a202      20   0 6.9G 111M  66M S  0.0   0.9  19:33.74 com.mi.health
+ 4780 system       20   0 7.4G  97M  65M S  0.0   0.8   7:12.60 com.xiaomi.mi_c+
+ 5284 system       20   0 6.9G 105M  65M S  0.0   0.9  14:00.04 com.miui.powerk+
+14404 u0_a162      20   0 5.9G  88M  64M S  0.0   0.7   0:01.47 com.miui.phrase
+ 9772 u0_a152      20   0 5.8G  93M  64M S  0.0   0.8   0:00.55 com.android.htm+
+ 3581 u0_a198      20   0 6.4G 100M  63M S  0.0   0.8  19:05.87 com.android.pro+
+ 3646 system       20   0 6.5G  97M  63M S  0.0   0.8   2:37.64 com.miui.daemon
+ 5768 system       20   0 6.1G  91M  62M S  0.0   0.7   2:21.52 com.xiaomi.joyo+
+23216 u0_a145      20   0 6.6G  91M  62M S  0.0   0.7   0:00.61 com.miui.securi+
+ 4161 u0_a139      20   0 6.5G  86M  61M S  7.6   0.7   4:37.86 com.xiaomi.meto+
+ 8693 system       20   0 6.2G  88M  60M S  6.3   0.7   0:13.82 com.xiaomi.mise+
+ 4820 u0_a64       20   0 6.3G  88M  60M S  1.3   0.7   8:43.11 com.lbe.securit+
+ 7803 u0_a193      20   0 6.1G  83M  59M S  0.0   0.7   0:00.44 com.android.per+
+ 4223 system       20   0 6.1G  80M  59M S  4.3   0.6   1:58.09 com.xiaomi.loca+
+ 9641 u0_a84       20   0 6.0G  84M  58M S  0.3   0.7   4:21.76 com.miui.mishar+
+11260 bluetooth    20   0 6.6G  84M  58M S  0.0   0.7   1:53.79 com.xiaomi.blue+
+31058 radio        20   0 6.1G  81M  57M S  0.0   0.6   0:00.44 com.miui.vsimco+
+ 7582 system       20   0 6.4G  83M  56M S  0.0   0.7   0:13.91 com.android.set+
+27768 u0_a135      20   0 5.8G  84M  55M S  0.0   0.7   0:00.42 com.xiaomi.bsp.+
+25404 u0_a186      20   0 1.3G  76M  55M S  0.3   0.6   0:00.42 com.google.andr+
+ 3733 system       20   0 6.0G  75M  55M S  0.0   0.6   0:24.81 .slas
+ 3672 u0_a59       20   0 6.1G  74M  54M S  0.0   0.6   2:22.18 system
+ 6197 system       20   0 6.0G  81M  54M S  0.0   0.7   0:34.75 com.miui.notifi+
+13916 u0_a113      20   0 5.9G  67M  52M S  0.6   0.5   0:00.10 com.android.pri+
+  800 root         20   0 6.1G  55M  51M S  0.0   0.4   2:07.96 zygote64
+ 2139 finddevice   20   0 6.6G  71M  51M S  0.0   0.6   2:31.72 com.xiaomi.find+
+ 4031 u0_a157      20   0 6.4G  79M  51M S  0.0   0.6   1:05.22 com.milink.serv+
+17323 system       20   0 6.3G  76M  51M S  0.0   0.6   0:04.02 com.xiaomi.miga+
+ 3741 u0_a98       20   0 5.9G  67M  50M S  0.0   0.5   0:05.57 com.xiaomi.mircs
+14600 system       20   0 5.9G  55M  49M S  6.6   0.4   0:00.34 com.modemdebug
+ 2707 radio        20   0 6.3G  67M  49M S  0.0   0.5   0:51.22 com.mediatek.ims
+14563 system       20   0 5.8G  68M  49M S  8.6   0.5   0:00.28 com.android.key+
+ 3648 nfc          20   0 6.2G  99M  48M S  0.0   0.8   0:43.09 com.android.nfc
+ 3736 u0_a62       20   0 6.0G  85M  47M S  0.0   0.7   4:57.53 com.miui.voicet+
+ 2565 system       20   0 6.1G  86M  47M S  0.0   0.7   0:08.81 com.xiaomi.mirr+
+ 3613 system       20   0 7.2G  70M  46M S  0.0   0.6   0:11.95 com.miui.conten+
+ 3827 system       20   0 6.0G  61M  45M S  0.0   0.5   0:07.96 com.mediatek.vo+
+10285 u0_a105      20   0 6.0G  68M  44M S  0.0   0.5   0:07.98 com.miui.core
+26824 u0_a149      20   0 6.0G  71M  44M S  0.0   0.6   0:05.31 com.miui.misound
+ 2111 radio        20   0 5.9G  62M  44M S  0.0   0.5   0:31.00 com.mediatek.sm+
+16231 system       20   0 6.0G  60M  44M S  6.3   0.5   0:11.71 com.miui.wmsvc
+ 2779 system       20   0 6.4G  55M  43M S  4.6   0.4   0:06.68 com.miui.securi+
+ 1152 cameraserver 20   0 4.8G  69M  42M S  0.0   0.5 158:20.91 camerahalserver
+10845 nfc          20   0 6.0G  57M  41M S  0.0   0.4   0:04.34 com.miui.tsmcli+
+ 2126 secure_elem+ 20   0 5.9G  47M  38M S  0.0   0.4   0:05.17 com.android.se
+ 3711 u0_a270      20   0 5.9G  54M  38M S  0.0   0.4   0:04.73 org.ifaa.aidl.m+
+ 3805 u0_a269      20   0 5.9G  54M  38M S  0.0   0.4   0:05.11 com.tencent.sot+
+ 3786 u0_a124      20   0 5.9G  53M  38M S  0.0   0.4   0:04.89 com.xiaomi.xmsf+
+ 3832 u0_a271      20   0 5.8G  51M  36M S  0.0   0.4   0:04.21 org.mipay.andro+
+  801 root         20   0 1.7G  26M  24M S  0.0   0.2   0:10.28 zygote
+ 2078 webview_zyg+ 20   0 1.6G  12M  12M S  0.0   0.1   0:05.04 webview_zygote
+  887 audioserver  20   0 3.1G  16M  11M S  0.0   0.1 128:00.65 audioserver
+ 1089 cameraserver 20   0 2.6G  14M 9.1M S  0.0   0.1   9:01.45 cameraserver
+15948 wifi         20   0 2.2G  10M 8.4M S  0.0   0.0   0:00.82 wpa_supplicant +
+ 9234 wifi         20   0 2.2G 9.1M 8.0M S  0.3   0.0   0:00.10 hostapd
+ 1118 mediaex      20   0 2.6G  13M 7.7M S  0.0   0.1   1:41.82 media.extractor+
+  627 keystore     20   0 2.5G  12M 7.4M S  0.0   0.1   1:50.43 keystore2 /data+
+ 1064 system       20   0 2.5G 7.1M 7.1M S  0.0   0.0   0:00.32 shelld
+ 1115 system       20   0 2.5G 6.8M 6.8M S  0.0   0.0   0:08.40 vtservice
+  814 system       -3  -8 2.7G 9.0M 6.8M S  0.6   0.0 371:20.02 android.hardwar+
+ 1120 media        20   0 106M  11M 6.8M S  0.0   0.0   5:13.16 mediaserver
+  803 audioserver  20   0 245M  36M 6.7M S  0.0   0.3 733:42.94 android.hardwar+[?25h[0m[1000;1H[K[?25h[?25h[0m[1000;1H[K

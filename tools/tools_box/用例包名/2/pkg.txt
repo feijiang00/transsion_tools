@@ -1,0 +1,20 @@
+com.tencent.ig
+com.kiloo.subwaysurf
+com.dts.freefireth
+com.firsttouchgames.dls7
+com.play.rogt
+com.whatsapp
+com.google.android.apps.tachyon
+sg.bigo.live
+com.instagram.android
+ com.skype.raider
+  org.telegram.messenger
+ com.truecaller
+ com.snapchat.android
+   jp.naver.line.android
+ com.facebook.orca
+  com.miniclip.eightballpool
+com.mobile.legends
+com.activision.callofduty.shooter
+com.outfit7.mytalkingtom2
+com.android.chrome

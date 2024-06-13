@@ -1,0 +1,1230 @@
+!SESSION 2021-07-28 16:39:06.489 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.equinox.common 4 0 2021-07-28 16:39:08.015
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: The bundle "org.eclipse.equinox.common_3.6.100.v20120522-1841 [30]" could not be resolved. Reason: Missing Constraint: Bundle-RequiredExecutionEnvironment: CDC-1.1/Foundation-1.1,J2SE-1.4
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolverError(AbstractBundle.java:1332)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1316)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:323)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.core.runtime 4 0 2021-07-28 16:39:08.017
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: The bundle "org.eclipse.core.runtime_3.8.0.v20120521-2346 [25]" could not be resolved. Reason: Missing Constraint: Bundle-RequiredExecutionEnvironment: CDC-1.0/Foundation-1.0,J2SE-1.3
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolverError(AbstractBundle.java:1332)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1316)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:323)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:390)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1176)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:559)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:544)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:457)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:243)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:438)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.osgi 4 0 2021-07-28 16:39:08.019
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.runtime_3.8.0.v20120521-2346.jar was not resolved.
+
+!ENTRY org.eclipse.osgi 4 0 2021-07-28 16:39:08.019
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar was not resolved.
+
+!ENTRY org.eclipse.osgi 2 0 2021-07-28 16:39:08.031
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.031
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.expressions_3.4.400.v20120523-2004.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.expressions 2 0 2021-07-28 16:39:08.031
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.core.expressions 2 0 2021-07-28 16:39:08.031
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.031
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.forms_3.5.200.v20120521-2332.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.031
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.031
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.commands_3.6.1.v20120912-135020.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.commands 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.workbench_3.8.2.v20121128-133708.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui_3.8.2.v20121018-234953.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.swt_3.8.1.v3836b.jar was not resolved.
+!SUBENTRY 2 org.eclipse.swt 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.preferences_3.5.1.v20121031-182809.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.preferences 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.console_3.5.100.v20120521-2012.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.ide_3.8.2.v20121106-170106.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.variables_3.2.600.v20120521-2012.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.variables 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.security_1.1.100.v20120522-1841.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package javax.security.auth.login_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package javax.security.auth.spi_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package javax.crypto_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package javax.security.auth.callback_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package javax.security.auth_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing imported package javax.crypto.spec_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/com.mtk.gat.process_1.0.0.jar was not resolved.
+!SUBENTRY 2 com.mtk.gat.process 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.p2.metadata_2.1.0.v20120430-2001.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.swt.win32.win32.x86_64_3.8.1.v3836b.jar was not resolved.
+!SUBENTRY 2 org.eclipse.swt.win32.win32.x86_64 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.databinding_1.4.1.v20120912-135020.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.databinding 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346/ was not resolved.
+!SUBENTRY 2 org.eclipse.core.runtime.compatibility.registry 2 0 2021-07-28 16:39:08.032
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.032
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.p2.metadata.repository_1.2.100.v20120524-1717.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/com.ibm.icu_4.4.2.v20110823.jar was not resolved.
+!SUBENTRY 2 com.ibm.icu 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.5))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.jface.databinding_1.6.0.v20120912-135020.jar was not resolved.
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.help_3.6.0.v20120912-134126.jar was not resolved.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package javax.xml.transform.stream_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package org.xml.sax.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package javax.xml.transform_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package javax.xml.transform.dom_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/com.android.ide.eclipse.traceview_25.1.1.2733545.jar was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.traceview 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.runtime_3.8.0.v20120521-2346.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.win32_3.2.301.v20121002-145744.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.win32 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.jobs_3.5.200.v20120521-2346.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.jobs 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.contenttype_3.4.200.v20120523-2004.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package org.xml.sax.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package org.xml.sax.ext_0.0.0.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/com.mtk.gat.save.log_1.0.0.jar was not resolved.
+!SUBENTRY 2 com.mtk.gat.save.log 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/com.android.ide.eclipse.monitor_24.3.3.jar was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.workbench.texteditor 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.033
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.debug.core_3.7.100.v20120521-2012.jar was not resolved.
+!SUBENTRY 2 org.eclipse.debug.core 2 0 2021-07-28 16:39:08.033
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.debug.ui_3.8.2.v20130130-171415.jar was not resolved.
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.editors_3.8.0.v20120523-1540.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.filesystem_1.3.200.v20130115-145044.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/com.mtk.gat.profile_1.0.0.jar was not resolved.
+!SUBENTRY 2 com.mtk.gat.profile 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.filebuffers_3.5.200.v20120523-1310.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.filebuffers 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.jface.text_3.8.2.v20121126-164145.jar was not resolved.
+!SUBENTRY 2 org.eclipse.jface.text 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.p2.repository_2.2.0.v20120524-1945.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing imported package org.xml.sax.helpers_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.p2.engine_2.2.0.v20130121-021919.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/com.android.ide.eclipse.base_25.1.1.2733545.jar was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.base 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.app_1.3.100.v20120522-1841.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.app 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=OSGi/Minimum)(version=1.2))(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing imported package org.xml.sax.helpers_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/com.mtk.gat.common.lib_1.0.0.jar was not resolved.
+!SUBENTRY 2 com.mtk.gat.common.lib 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/com.android.ide.eclipse.gldebugger_25.1.1.2733545.jar was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/com.mtk.gat.kernellog_1.0.0.jar was not resolved.
+!SUBENTRY 2 com.mtk.gat.kernellog 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.034
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.databinding.observable_1.4.1.v20120521-2332.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.databinding.observable 2 0 2021-07-28 16:39:08.034
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.compare.core_3.5.200.v20120522-1148.jar was not resolved.
+!SUBENTRY 2 org.eclipse.compare.core 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/com.android.ide.eclipse.hierarchyviewer_25.1.1.2733545.jar was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.hierarchyviewer 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.resources_3.8.1.v20121114-124432.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.resources 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.5))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.security.win32.x86_64_1.0.100.v20120522-2049.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.security.win32.x86_64 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.text_3.5.200.v20120523-1310.jar was not resolved.
+!SUBENTRY 2 org.eclipse.text 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.core.databinding.property_1.4.100.v20120523-1956.jar was not resolved.
+!SUBENTRY 2 org.eclipse.core.databinding.property 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.common_3.6.100.v20120522-1841.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.common 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/com.android.ide.eclipse.ddms_24.3.3.201612151803.jar was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.jface_3.8.0.v20120912-135020.jar was not resolved.
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/com.mtk.gat.actions_1.0.0.jar was not resolved.
+!SUBENTRY 2 com.mtk.gat.actions 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.035
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.equinox.p2.core_2.2.0.v20120430-0525.jar was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.core 2 0 2021-07-28 16:39:08.035
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+
+!ENTRY org.eclipse.osgi 2 0 2021-07-28 16:39:08.040
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.041
+!MESSAGE Bundle com.android.ide.eclipse.base_25.1.1.2733545 [1] was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.base 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.base 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.base 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.041
+!MESSAGE Bundle com.android.ide.eclipse.ddms_24.3.3.201612151803 [2] was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.ui.console_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.core.resources_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.ui.ide_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle com.android.ide.eclipse.base_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.ddms 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.041
+!MESSAGE Bundle com.android.ide.eclipse.gldebugger_25.1.1.2733545 [3] was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.ui.ide_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.041
+!MESSAGE Missing required bundle org.eclipse.core.resources_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui.console_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.base_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.gldebugger 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.android.ide.eclipse.hierarchyviewer_25.1.1.2733545 [4] was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.hierarchyviewer 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.hierarchyviewer 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.hierarchyviewer 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui.console_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.hierarchyviewer 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.hierarchyviewer 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.base_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.hierarchyviewer 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.android.ide.eclipse.monitor_24.3.3 [5] was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.traceview_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.base_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.common.lib_1.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.kernellog_1.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.actions_1.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.profile_1.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.process_1.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.save.log_1.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.monitor 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.android.ide.eclipse.traceview_25.1.1.2733545 [6] was not resolved.
+!SUBENTRY 2 com.android.ide.eclipse.traceview 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.traceview 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.traceview 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui.ide_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.traceview 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_21.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.traceview 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.traceview 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.resources_0.0.0.
+!SUBENTRY 2 com.android.ide.eclipse.traceview 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.ibm.icu_4.4.2.v20110823 [7] was not resolved.
+!SUBENTRY 2 com.ibm.icu 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.5))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.mtk.gat.actions_1.0.0 [8] was not resolved.
+!SUBENTRY 2 com.mtk.gat.actions 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.mtk.gat.actions 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.mtk.gat.actions 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.common.lib_1.0.0.
+!SUBENTRY 2 com.mtk.gat.actions 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_21.0.0.
+!SUBENTRY 2 com.mtk.gat.actions 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing imported package com.android_0.0.0.
+!SUBENTRY 2 com.mtk.gat.actions 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.mtk.gat.common.lib_1.0.0 [9] was not resolved.
+!SUBENTRY 2 com.mtk.gat.common.lib 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.mtk.gat.common.lib 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.mtk.gat.common.lib 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_21.0.0.
+!SUBENTRY 2 com.mtk.gat.common.lib 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing imported package com.android_0.0.0.
+!SUBENTRY 2 com.mtk.gat.common.lib 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.mtk.gat.kernellog_1.0.0 [10] was not resolved.
+!SUBENTRY 2 com.mtk.gat.kernellog 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.mtk.gat.kernellog 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.mtk.gat.kernellog 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_21.0.0.
+!SUBENTRY 2 com.mtk.gat.kernellog 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.common.lib_1.0.0.
+!SUBENTRY 2 com.mtk.gat.kernellog 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.mtk.gat.process_1.0.0 [11] was not resolved.
+!SUBENTRY 2 com.mtk.gat.process 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.mtk.gat.process 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.mtk.gat.process 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_21.0.0.
+!SUBENTRY 2 com.mtk.gat.process 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle com.mtk.gat.common.lib_1.0.0.
+!SUBENTRY 2 com.mtk.gat.process 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.042
+!MESSAGE Bundle com.mtk.gat.profile_1.0.0 [12] was not resolved.
+!SUBENTRY 2 com.mtk.gat.profile 2 0 2021-07-28 16:39:08.042
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.mtk.gat.profile 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.mtk.gat.profile 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle com.mtk.gat.common.lib_1.0.0.
+!SUBENTRY 2 com.mtk.gat.profile 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_21.0.0.
+!SUBENTRY 2 com.mtk.gat.profile 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle com.mtk.gat.save.log_1.0.0 [13] was not resolved.
+!SUBENTRY 2 com.mtk.gat.save.log 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 2 com.mtk.gat.save.log 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 com.mtk.gat.save.log 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle com.android.ide.eclipse.ddms_21.0.0.
+!SUBENTRY 2 com.mtk.gat.save.log 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle com.mtk.gat.common.lib_1.0.0.
+!SUBENTRY 2 com.mtk.gat.save.log 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle com.mtk.gat.kernellog_1.0.0.
+!SUBENTRY 2 com.mtk.gat.save.log 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.6))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.compare.core_3.5.200.v20120522-1148 [14] was not resolved.
+!SUBENTRY 2 org.eclipse.compare.core 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.compare.core 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package com.ibm.icu.text_3.6.1.
+!SUBENTRY 2 org.eclipse.compare.core 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package com.ibm.icu.util_3.6.1.
+!SUBENTRY 2 org.eclipse.compare.core 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.commands_3.6.1.v20120912-135020 [15] was not resolved.
+!SUBENTRY 2 org.eclipse.core.commands 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.commands 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.contenttype_3.4.200.v20120523-2004 [16] was not resolved.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.preferences_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.registry_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package org.xml.sax.ext_0.0.0.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package org.xml.sax.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.core.contenttype 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.databinding_1.4.1.v20120912-135020 [17] was not resolved.
+!SUBENTRY 2 org.eclipse.core.databinding 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.databinding 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.databinding.observable_[1.3.0,2.0.0).
+!SUBENTRY 2 org.eclipse.core.databinding 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.databinding.property_[1.3.0,2.0.0).
+!SUBENTRY 2 org.eclipse.core.databinding 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing optionally imported package com.ibm.icu.math_0.0.0.
+!SUBENTRY 2 org.eclipse.core.databinding 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.core.databinding 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.databinding.observable_1.4.1.v20120521-2332 [18] was not resolved.
+!SUBENTRY 2 org.eclipse.core.databinding.observable 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.databinding.observable 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.databinding.property_1.4.100.v20120523-1956 [19] was not resolved.
+!SUBENTRY 2 org.eclipse.core.databinding.property 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.databinding.property 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.databinding.observable_[1.3.0,2.0.0).
+!SUBENTRY 2 org.eclipse.core.databinding.property 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.expressions_3.4.400.v20120523-2004 [20] was not resolved.
+!SUBENTRY 2 org.eclipse.core.expressions 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.3.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.expressions 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.core.expressions 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.filebuffers_3.5.200.v20120523-1310 [21] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filebuffers 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.7.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.filebuffers 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing optionally required bundle org.eclipse.core.resources_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.filebuffers 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.text_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.filebuffers 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_[1.2.0,2.0.0).
+!SUBENTRY 2 org.eclipse.core.filebuffers 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.core.filebuffers 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.filesystem_1.3.200.v20130115-145044 [22] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.filesystem 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.registry_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.filesystem 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.043
+!MESSAGE Bundle org.eclipse.core.jobs_3.5.200.v20120521-2346 [23] was not resolved.
+!SUBENTRY 2 org.eclipse.core.jobs 2 0 2021-07-28 16:39:08.043
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.jobs 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.core.resources_3.8.1.v20121114-124432 [24] was not resolved.
+!SUBENTRY 2 org.eclipse.core.resources 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing optionally required bundle org.eclipse.ant.core_[3.1.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.resources 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.resources 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_[1.3.0,2.0.0).
+!SUBENTRY 2 org.eclipse.core.resources 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.7.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.resources 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.5))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.core.runtime_3.8.0.v20120521-2346 [25] was not resolved.
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.6.100,4.0.0).
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.jobs_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.registry_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.preferences_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.contenttype_[3.3.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing optionally required bundle org.eclipse.core.runtime.compatibility.auth_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.app_1.0.0.
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing dynamically imported package org.eclipse.core.internal.runtime.auth_0.0.0.
+!SUBENTRY 2 org.eclipse.core.runtime 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.core.variables_3.2.600.v20120521-2012 [26] was not resolved.
+!SUBENTRY 2 org.eclipse.core.variables 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.3.0,4.0.0).
+!SUBENTRY 2 org.eclipse.core.variables 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.debug.core_3.7.100.v20120521-2012 [27] was not resolved.
+!SUBENTRY 2 org.eclipse.debug.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.resources_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.variables_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_[1.2.0,2.0.0).
+!SUBENTRY 2 org.eclipse.debug.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.debug.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.debug.ui_3.8.2.v20130130-171415 [28] was not resolved.
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.variables_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.ui_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.ui.console_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.help_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.debug.core_[3.7.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.jface.text_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.ui.workbench.texteditor_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.ui.ide_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.ui.editors_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_[1.2.0,2.0.0).
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package org.eclipse.ui.forms.widgets_0.0.0.
+!SUBENTRY 2 org.eclipse.debug.ui 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.equinox.app_1.3.100.v20120522-1841 [29] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.app 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.registry_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.equinox.app 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.equinox.app 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing dynamically imported package org.osgi.service.event_1.0.0.
+!SUBENTRY 2 org.eclipse.equinox.app 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing optionally imported package org.osgi.service.event_1.0.0.
+!SUBENTRY 2 org.eclipse.equinox.app 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=OSGi/Minimum)(version=1.2))(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.equinox.common_3.6.100.v20120522-1841 [30] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.common 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.equinox.p2.core_2.2.0.v20120430-0525 [31] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.core 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.044
+!MESSAGE Bundle org.eclipse.equinox.p2.engine_2.2.0.v20130121-021919 [32] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.common_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.equinox.registry_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing required bundle org.eclipse.core.jobs_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package org.eclipse.core.internal.preferences_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package org.eclipse.core.runtime.preferences_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.core.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.metadata_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.metadata.index_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.044
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.metadata.repository.io_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.persistence_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.repository_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.core.eventbus_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.repository_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.core_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.core.spi_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.metadata_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.metadata.expression_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.metadata.index_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.query_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository.artifact_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository.metadata_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository.metadata.spi_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository.spi_2.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.security.storage_1.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.osgi.service.prefs_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.engine 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.045
+!MESSAGE Bundle org.eclipse.equinox.p2.metadata_2.1.0.v20120430-2001 [33] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required bundle org.eclipse.equinox.common_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.core_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.045
+!MESSAGE Bundle org.eclipse.equinox.p2.metadata.repository_1.2.100.v20120524-1717 [34] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required bundle org.eclipse.equinox.registry_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.core.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.metadata_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.metadata.index_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.persistence_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.repository_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.repository.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.core.eventbus_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.repository_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.core_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.core.spi_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.metadata_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.metadata.expression_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.metadata.index_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.query_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository.metadata_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository.metadata.spi_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.repository.spi_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.osgi.service.prefs_1.1.1.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.metadata.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.045
+!MESSAGE Bundle org.eclipse.equinox.p2.repository_2.2.0.v20120524-1945 [35] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required bundle org.eclipse.equinox.common_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing required bundle org.eclipse.equinox.registry_3.3.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.core.runtime.jobs_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.core.runtime.preferences_3.2.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.core_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.core.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.metadata_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.p2.repository.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.internal.provisional.p2.core.eventbus_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.core_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.core.spi_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.metadata_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.metadata.expression_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.045
+!MESSAGE Missing imported package org.eclipse.equinox.p2.query_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.eclipse.equinox.security.storage_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.osgi.service.prefs_1.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.xml.sax.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.p2.repository 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.5))(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.equinox.preferences_3.5.1.v20121031-182809 [36] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.preferences 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.equinox.preferences 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing optionally required bundle org.eclipse.equinox.registry_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.equinox.preferences 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.osgi.service.prefs_[1.1.1,1.2.0).
+!SUBENTRY 2 org.eclipse.equinox.preferences 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.1))(&(osgi.ee=JavaSE)(version=1.4)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.equinox.registry_3.5.200.v20120522-1841 [37] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing optionally imported package org.eclipse.core.runtime.jobs_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.xml.sax.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.registry 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.equinox.security_1.1.100.v20120522-1841 [38] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.crypto_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.crypto.spec_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.security.auth_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.security.auth.callback_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.security.auth.login_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.security.auth.spi_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.eclipse.core.internal.runtime_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.eclipse.core.runtime_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.eclipse.core.runtime.jobs_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.eclipse.core.runtime.preferences_0.0.0.
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.osgi.service.prefs_[1.1.0,2.0.0).
+!SUBENTRY 2 org.eclipse.equinox.security 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.help_3.6.0.v20120912-134126 [39] was not resolved.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.4.200,4.0.0).
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package com.ibm.icu.text_3.8.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.xml.transform_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.xml.transform.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.xml.transform.stream_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.xml.sax.helpers_0.0.0.
+!SUBENTRY 2 org.eclipse.help 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.jface_3.8.0.v20120912-135020 [40] was not resolved.
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.swt_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.core.commands_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.3.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.jface 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.jface.databinding_1.6.0.v20120912-135020 [41] was not resolved.
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.swt_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.jface_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.core.databinding.observable_[1.3.0,2.0.0).
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.core.databinding.property_[1.3.0,2.0.0).
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.core.databinding_[1.2.0,2.0.0).
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.jface.databinding 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.jface.text_3.8.2.v20121126-164145 [42] was not resolved.
+!SUBENTRY 2 org.eclipse.jface.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.text_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.swt_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.jface_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.jface.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.jface.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.swt_3.8.1.v3836b [43] was not resolved.
+!SUBENTRY 2 org.eclipse.swt 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing dynamically imported package org.eclipse.swt.accessibility2_0.0.0.
+!SUBENTRY 2 org.eclipse.swt 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing dynamically imported package org.mozilla.xpcom_0.0.0.
+!SUBENTRY 2 org.eclipse.swt 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.046
+!MESSAGE Bundle org.eclipse.text_3.5.200.v20120523-1310 [44] was not resolved.
+!SUBENTRY 2 org.eclipse.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.core.commands_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required bundle org.eclipse.equinox.common_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing imported package com.ibm.icu.util_0.0.0.
+!SUBENTRY 2 org.eclipse.text 2 0 2021-07-28 16:39:08.046
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.ui_3.8.2.v20121018-234953 [45] was not resolved.
+!SUBENTRY 2 org.eclipse.ui 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.swt_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.jface_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui.workbench_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.ui.console_3.5.100.v20120521-2012 [46] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.jface.text_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui.workbench.texteditor_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.variables_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.console 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.ui.editors_3.8.0.v20120523-1540 [47] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.7.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui.ide_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.jface.text_[3.8.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui.workbench.texteditor_[3.7.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.filebuffers_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.resources_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_[1.2.0,2.0.0).
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.editors 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.ui.forms_3.5.200.v20120521-2332 [48] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.jface_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing optionally required bundle org.eclipse.ui_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.forms 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.ui.ide_3.8.2.v20121106-170106 [49] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing optionally required bundle org.eclipse.core.resources_[3.7.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.filesystem_[1.0.0,2.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.help_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui.workbench_[3.7.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing optionally required bundle org.eclipse.ui.views_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.jface.text_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing optionally required bundle org.eclipse.ui.forms_[3.3.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.engine_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.equinox.p2.metadata_[2.0.0,3.0.0).
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.ide 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.ui.workbench_3.8.2.v20121128-133708 [50] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.6.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.help_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.jface_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.swt_[3.8.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.4.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.jface.databinding_[1.3.0,2.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.databinding.property_[1.2.0,2.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.databinding.observable_[1.2.0,2.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package com.ibm.icu.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package javax.xml.parsers_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package org.w3c.dom_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package org.xml.sax_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=JavaSE)(version=1.4))(&(osgi.ee=CDC/Foundation)(version=1.1)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310 [51] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.workbench.texteditor 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.runtime_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench.texteditor 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.compare.core_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench.texteditor 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.core.expressions_[3.4.100,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench.texteditor 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.jface.text_[3.8.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench.texteditor 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required bundle org.eclipse.ui_[3.5.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.workbench.texteditor 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing imported package com.ibm.icu.text_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench.texteditor 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.core.filesystem.win32.x86_64_1.1.300.v20120522-1137 [52] was not resolved.
+!SUBENTRY 2 org.eclipse.core.filesystem.win32.x86_64 2 0 2021-07-28 16:39:08.047
+!MESSAGE Missing host org.eclipse.core.filesystem_[1.1.0,2.0.0).
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.047
+!MESSAGE Bundle org.eclipse.core.runtime.compatibility.registry_3.5.100.v20120521-2346 [53] was not resolved.
+!SUBENTRY 2 org.eclipse.core.runtime.compatibility.registry 2 0 2021-07-28 16:39:08.048
+!MESSAGE Missing host org.eclipse.equinox.registry_[3.5.0,3.6.0).
+!SUBENTRY 2 org.eclipse.core.runtime.compatibility.registry 2 0 2021-07-28 16:39:08.048
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.048
+!MESSAGE Bundle org.eclipse.equinox.security.win32.x86_64_1.0.100.v20120522-2049 [54] was not resolved.
+!SUBENTRY 2 org.eclipse.equinox.security.win32.x86_64 2 0 2021-07-28 16:39:08.048
+!MESSAGE Missing host org.eclipse.equinox.security_[1.0.0,2.0.0).
+!SUBENTRY 2 org.eclipse.equinox.security.win32.x86_64 2 0 2021-07-28 16:39:08.048
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.048
+!MESSAGE Bundle org.eclipse.swt.win32.win32.x86_64_3.8.1.v3836b [55] was not resolved.
+!SUBENTRY 2 org.eclipse.swt.win32.win32.x86_64 2 0 2021-07-28 16:39:08.048
+!MESSAGE Missing host org.eclipse.swt_[3.0.0,4.0.0).
+!SUBENTRY 2 org.eclipse.swt.win32.win32.x86_64 2 0 2021-07-28 16:39:08.048
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2021-07-28 16:39:08.048
+!MESSAGE Bundle org.eclipse.ui.win32_3.2.301.v20121002-145744 [56] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.win32 2 0 2021-07-28 16:39:08.048
+!MESSAGE Missing host org.eclipse.ui.ide_[3.2.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui.win32 2 0 2021-07-28 16:39:08.048
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(&(osgi.ee=JavaSE)(version=1.4))".
+
+!ENTRY org.eclipse.osgi 4 0 2021-07-28 16:39:08.057
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Unable to acquire application service. Ensure that the org.eclipse.core.runtime bundle is resolved and started (see config.ini).
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:74)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
