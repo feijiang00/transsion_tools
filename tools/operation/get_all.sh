@@ -45,6 +45,9 @@ filter_logs() {
   done
 }
 
+# 过滤anr日志
+filter_logs "am_anr" "ANR" 0 10
+
 # 过滤 am_proc_start 日志
 filter_logs "am_proc_start" "自启" 0 10
 
@@ -87,7 +90,7 @@ filter_tran_perf_logs() {
     if [ "$abs_time_diff" -le $((time_range * 50)) ]; then
       echo "$timestamp"
     fi
-  done | sort -u | head -10 > /tmp/filtered_times.txt #取10个
+  done | sort -u | head -n $((time_range * 10)) > /tmp/filtered_times.txt #取10个
 
   # 继续筛选并输出前后7行
   grep "TRAN Perf" "$log_dir" -rni --include="*kernel*" | while read -r line; do
