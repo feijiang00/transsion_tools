@@ -23,9 +23,10 @@ filter_logs() {
   local keyword="$1"
   local label="$2"
   local before_lines="$3"
-  local range_multiplier="$4"
+  local after_line="$4"
+  local range_multiplier="$5"
   echo -e "\n==================== $label 分割线 ===================="
-  grep "$keyword" "$LOG_DIR" -rni -B "$before_lines" | while read -r line; do
+  grep "$keyword" "$LOG_DIR" -rni -A "$after_line" -B "$before_lines" | while read -r line; do
     # 提取标准时间戳部分 (例如 22:36:01.436184)
     TIMESTAMP=$(echo "$line" | grep -oP '\d{2}:\d{2}:\d{2}\.\d{6}' | cut -d'.' -f1)
 
@@ -45,20 +46,27 @@ filter_logs() {
   done
 }
 
+# 参数含义： 过滤关键字 tit标题 向前多少行 向后多少行 倍数范围(搭配调用时倍数相乘)
+
 # 过滤anr日志
-filter_logs "am_anr" "ANR" 0 10
+filter_logs "am_anr" "ANR" 0 0 10
+
+# 过滤crash 日志
+filter_logs "am_crash" "crash" 0 0 10
 
 # 过滤 am_proc_start 日志
-filter_logs "am_proc_start" "自启" 0 10
+filter_logs "am_proc_start" "自启" 0 0 10
 
 # 过滤 lowmemorykiller: Kill 日志
-filter_logs "lowmemorykiller: Kill" "低内存查杀" 0 10
+filter_logs "lowmemorykiller: Kill" "低内存查杀" 0 0 10
 
 # 过滤 SKIN 日志
-filter_logs "SKIN" "板温" 0 2
+filter_logs "SKIN" "板温" 0 0 2
 
 # 过滤 thermal_core 日志
-filter_logs "thermal_core" "限频" 0 10
+filter_logs "thermal_core" "限频" 0 0 10
+
+
 
 # 定义一个函数来输出内存信息
 output_meminfo() {

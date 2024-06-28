@@ -1,0 +1,15 @@
+com.yandex.browser                          
+ru.yandex.searchplugin                      
+ru.yandex.yandexmaps                      
+ru.yandex.disk		      
+ru.mail.mailapp                                 
+com.icq.mobile.client		    
+ru.mail.search.electroscope	       
+ru.mail.mailnews                                
+ru.ok.live
+com.vkontakte.android
+ru.ok.android 
+ru.nspk.mirpay 
+ru.rostel
+com.ncloudtech.cloudoffice
+com.kms.free          

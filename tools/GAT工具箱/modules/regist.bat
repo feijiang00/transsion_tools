@@ -1,1 +1,0 @@
-@REGEDIT /S gat.reg
