@@ -12,9 +12,9 @@ if not "%1"=="" (
 echo "start capture trace, time %capture_time%s"
 
 if not "%2"=="" (
-    adb -s "%2" shell atrace -t %capture_time% -b 102400 gfx input sched disk view webview wm am sm video hal res dalvik bionic power pm ss sched freq idle memreclaim binder_driver binder_lock camera aidl irq > C:\Users\tingjiang.wang\Desktop\%filename%
+    adb -s "%2" shell atrace -t %capture_time% -b 102400 gpu gfx input sched disk view webview wm am sm video hal res dalvik bionic power pm ss sched freq idle memreclaim binder_driver binder_lock camera aidl irq > C:\Users\tingjiang.wang\Desktop\%filename%
 ) else (
-    adb shell atrace -t %capture_time% -b 102400 gfx input sched disk view webview wm am sm video hal res dalvik bionic power pm ss sched freq idle memreclaim binder_driver binder_lock camera aidl irq > C:\Users\tingjiang.wang\Desktop\%filename%
+    adb shell atrace -t %capture_time% -b 102400 gpu gfx input sched disk view webview wm am sm video hal res dalvik bionic power pm ss sched freq idle memreclaim binder_driver binder_lock camera aidl irq > C:\Users\tingjiang.wang\Desktop\%filename%
 )
 
 echo "capture done, start unzip"
