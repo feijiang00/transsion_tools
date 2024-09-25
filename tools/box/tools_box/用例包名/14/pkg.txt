@@ -1,0 +1,17 @@
+com.whatsapp
+com.google.android.youtube
+com.google.android.apps.tachyon
+com.android.chrome
+com.facebook.katana
+org.telegram.messenger
+com.truecaller
+com.snapchat.android
+com.viber.voip
+com.skype.raider
+jp.naver.line.android
+com.vkontakte.android
+com.facebook.orca
+com.instagram.android
+com.imo.android.imoim
+
+Vidmate(com.nemo.vidmate)进入Chrome浏览器下载，www.vidmate.com

@@ -1,0 +1,9 @@
+搜狗需从浏览器自行下载
+com.touchtype.swiftkey
+com.google.android.inputmethod.latin
+com.ziipin.softkeyboard.saudi
+com.pakdata.easyurdu
+com.simejikeyboard
+com.emoji.coolkeyboard
+com.facemoji.lite.transsion
+panda.keyboard.emoji.theme

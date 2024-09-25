@@ -1,0 +1,3 @@
+com.viber.voip
+com.facebook.katana
+com.android.chrome

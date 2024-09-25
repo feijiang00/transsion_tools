@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.tabs.defaultColor": null,
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#4A212A",
+        "titleBar.activeBackground": "#672E3A",
+        "titleBar.activeForeground": "#FEFCFC"
+    }
+}
